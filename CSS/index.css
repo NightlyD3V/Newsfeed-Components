@@ -102,12 +102,9 @@
   transform: translate(-50%);
   background-color: white;
 }
-.articleDiv {
-  display: flex;
-  justify-content: center;
-}
 .article-open {
   height: 400px;
+  overflow-y: scroll;
 }
 html,
 body {

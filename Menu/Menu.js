@@ -13,6 +13,7 @@ const toggleMenu = () => {
 const header = document.querySelector('h1');
 window.onload = function() {
   TweenMax.from(header,2,{x:'200px'});
+  TweenMax.to(menuButton,5,{backgroundColor:'green'});
 }
 // Start Here: Create a reference to the ".menu" class
 const menu = document.querySelector('.menu');
