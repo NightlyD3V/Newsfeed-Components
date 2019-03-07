@@ -3,8 +3,7 @@ const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu refence. 
   menu.classList.toggle('menu--open');
   if(menu.classList.contains('menu--open')){
-    // text.style.display = 'flex';
-    // text.style.justifyContent = 'center';
+    // text.style.
     TweenMax.from(menu,2,{left: '-250px', ease: Bounce.easeOut});
     TweenMax.to(articles,2,{left:250, width: '50%',ease:Back.easeOut});
   } else {
